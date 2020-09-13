@@ -95,13 +95,13 @@ let chart2 = new Chart(daily, {
 let chart3 = new Chart(mobile, {
   type: "doughnut",
   data: {
-    labels: ["Desktop", "Tablets", "Phones"],
+    labels: ["Phones", "Tablets", "Desktop"],
     datasets: [
       {
         label: "# of User",
-        data: [2000, 550, 500,],
+        data: [550, 500, 2000],
         borderWidth: 0,
-        backgroundColor: ["#7477BF", "#78CF82", "#51B6C8"],
+        backgroundColor: ["#78CF82","#51B6C8","#7477BF"],
       },
     ],
   },

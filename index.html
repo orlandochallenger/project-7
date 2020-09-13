@@ -14,55 +14,77 @@
 
         <div class="head-right">
           <!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-          <svg
-            id="bell"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 32 32"
-            style="enable-background: new 0 0 32 32"
-            xml:space="preserve"
-          >
-            <style type="text/css">
-              .st0 {
-                fill: #ffffff;
-              }
-            </style>
-            <g id="_x36__6_">
-              <g>
-                <path
-                  class="st0"
-                  d="M24,18v-8c0-5.5-4.5-10-10-10S4,4.5,4,10v8l-4,8h9.1c0.5,2.3,2.5,4,4.9,4s4.4-1.7,4.9-4H28L24,18z M14,28
-                                    c-1.3,0-2.4-0.8-2.8-2h5.6C16.4,27.2,15.3,28,14,28z M3,24l3-6v-8c0-4.4,3.6-8,8-8s8,3.6,8,8v8l3,6H3z"
-                />
-              </g>
-            </g>
-          </svg>
-          <div class="header-vl"></div>
-          <img
-            class="profileImg"
-            src="images/member-2.jpg"
-            alt="Dale Byrd picture"
-          />
-          <h2 class="user-name">Dale Byrd</h2>
+            <div class="dropdown">
+                <svg
+                id="bell"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 32 32"
+                style="enable-background: new 0 0 32 32"
+                xml:space="preserve"
+                >
+                <style type="text/css">
+                    .st0 {
+                    fill: #ffffff;
+                    }
+                </style>
+                <g id="_x36__6_">
+                    <g>
+                    <path
+                        class="st0"
+                        d="M24,18v-8c0-5.5-4.5-10-10-10S4,4.5,4,10v8l-4,8h9.1c0.5,2.3,2.5,4,4.9,4s4.4-1.7,4.9-4H28L24,18z M14,28
+                                        c-1.3,0-2.4-0.8-2.8-2h5.6C16.4,27.2,15.3,28,14,28z M3,24l3-6v-8c0-4.4,3.6-8,8-8s8,3.6,8,8v8l3,6H3z"
+                    />
+                    <circle id="bell-dot" cx="32" cy="1" r="5" fill="green"></circle>
+                    </g>
+                </g>
+                
+                </svg>
+
+                <div class="dropdown-content">
+                    <div class="notification">
+                        <a href="#"><span class="notification-text">Inbox</span></a>
+                    </div>
+                    <div class="notification">
+                        <a href="#"><span class="notification-text">Notifications</span></a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="header-vl"></div>
+            <img
+            
+                class="profileImg"
+                src="images/member-2.jpg"
+                alt="Dale Byrd picture"
+            />
+            <h2 class="user-name">Dale Byrd</h2>
         </div>
       </header>
-      <nav>
-        <a class="icon-1" href="index.html">
-          <img class="nav-icon" id="icon-1" src="icons/icon-dashboard.svg" alt="dashboard"
-        /></a>
-        <a href="#">
+
+      <!-- NAV -->
+
+      <nav class="nav-bar">
+        <div class="icon-1">
+          <img class="nav-icon" src="icons/icon-dashboard.svg" alt="dashboard"
+        /></div>
+        <div class="icon-1">
           <img class="nav-icon" src="icons/icon-members.svg" alt="members"
-        /></a>
-        <a href="#">
+        /></div>
+        <div class="icon-1">
           <img class="nav-icon" src="icons/icon-visits.svg" alt="visits"
-        /></a>
-        <a href="#">
+        /></div>
+        <div class="icon-1">
           <img class="nav-icon" src="icons/icon-settings.svg" alt="setting"
-        /></a>
+        /></div>
       </nav>
+
+      <!-- NAV END -->
+
       <main>
         <div class="dash-top">
           <h2>Dashboard</h2>
@@ -217,8 +239,9 @@
           </div>
         </div>
 
-        <!-- new members -->
         <div class="hz"></div>
+
+         <!-- new members -->
         <div class="card">
           <div class="new-member">
             <h3>NEW MEMBERS</h3>
@@ -228,54 +251,69 @@
                 src="images/member-1.jpg"
                 alt="picture of member 1"
               />
-              <div class="info">
+              <div class="info-1">
                 <p class="name">Victoria Chambers</p>
                 <a class="email" href="#">victoria.chambers80@example.com</a>
-                <p class="date">10/15/15</p>
-              </div>
             </div>
-            <hr>
+                <div class="flex-date">
+                    <p class="date">10/15/15</p>
+                </div>
+            </div>
+
+            <hr />
+
             <div class="members-div">
               <img
                 class="membersImg"
                 src="images/member-2.jpg"
                 alt="picture of member 2"
               />
-              <div class="info">
+              <div class="info-1">
                 <p class="name">Dale Byrd</p>
                 <a class="email" href="#">dale.byrd52@example.com</a>
-                <p class="date">10/15/15</p>
               </div>
+              <div class="flex-date">
+                <p class="date">10/15/15</p>
             </div>
-            <hr>
+            </div>
+
+            <hr />
+
             <div class="members-div">
               <img
                 class="membersImg"
                 src="images/member-3.jpg"
                 alt="picture of member 3"
               />
-              <div class="info">
+              <div class="info-1">
                 <p class="name">Dawn Wood</p>
                 <a class="email" href="#">dawn.wood16@example.com</a>
-                <p class="date">10/15/15</p>
               </div>
+                <div class="flex-date">
+                    <p class="date">10/15/15</p>
+                </div>
             </div>
-            <hr>
+
+            <hr />
+
             <div class="members-div">
               <img
                 class="membersImg"
                 src="images/member-4.jpg"
                 alt="picture of member 4"
               />
-              <div class="info">
+              <div class="info-1">
                 <p class="name">Dan Oliver</p>
                 <a class="email" href="#">dan.oliver82@examole.com</a>
-                <p class="date">10/15/15</p>
               </div>
+                <div class="flex-date">
+                    <p class="date">10/15/15</p>
+                </div>
             </div>
           </div>
 
           <div class="vl"></div>
+
           <!-- recent activity -->
 
           <div class="activity">
@@ -294,7 +332,7 @@
               </div>
               <div class="arrow">></div>
             </div>
-            <hr>
+            <hr />
             <div class="members-div">
               <img
                 class="membersImg"
@@ -309,7 +347,7 @@
               </div>
               <div class="arrow">></div>
             </div>
-            <hr>
+            <hr />
             <div class="members-div">
               <img
                 class="membersImg"
@@ -324,7 +362,7 @@
               </div>
               <div class="arrow">></div>
             </div>
-            <hr>
+            <hr />
             <div class="members-div">
               <img
                 class="membersImg"
@@ -366,6 +404,7 @@
           </div>
 
           <div class="vl"></div>
+
           <!-- setting -->
 
           <div class="setting">
