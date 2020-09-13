@@ -49,11 +49,19 @@ li {
   padding: 1rem;
 }
 
-.active {
+.traffic-nav-link button {
+  background: transparent;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.active button {
   background: rgb(116, 173, 31);
   color: white;
-  border-radius: 50%;
-  
 }
 
 header {
@@ -212,8 +220,8 @@ select {
   width: 100%;
 }
 
-.icon-1:first-child{
-    border-bottom: 4px solid greenyellow;
+.icon-1:first-child {
+  border-bottom: 4px solid greenyellow;
 }
 
 .nav-icon {
@@ -333,9 +341,9 @@ select {
   flex-wrap: nowrap;
 }
 
-.flex-date{
-    margin-left: auto;
-    }
+.flex-date {
+  margin-left: auto;
+}
 
 a.email,
 p.date,
@@ -349,17 +357,17 @@ p.comment {
   text-align: left;
 }
 
-.info-1{
-    justify-content: space-between;
-    align-items: center;
+.info-1 {
+  justify-content: space-between;
+  align-items: center;
 }
 
 .arrow {
-    margin: auto 0 auto auto;
-    grid-area: arrow;
-    color: #7477bf;
-    font-size: 1.5rem;
-  }
+  margin: auto 0 auto auto;
+  grid-area: arrow;
+  color: #7477bf;
+  font-size: 1.5rem;
+}
 
 /* END OF MEMBERS AND ACTIVITY */
 
@@ -549,10 +557,10 @@ input:checked + .slider .off {
     margin-top: 35px;
     width: 100%;
   }
-  
-  .icon-1:first-child{
-      border-left: 5px solid greenyellow;
-      border-bottom: none;
+
+  .icon-1:first-child {
+    border-left: 5px solid greenyellow;
+    border-bottom: none;
   }
 
   .dash-top {
@@ -607,7 +615,7 @@ input:checked + .slider .off {
     flex-direction: row;
   }
 
-.members-div {
+  .members-div {
     width: 100%;
     margin: 0 auto;
     margin-top: 10px;
@@ -616,9 +624,9 @@ input:checked + .slider .off {
     flex-direction: row;
   }
 
-.flex-date{
-margin-left: auto;
-}
+  .flex-date {
+    margin-left: auto;
+  }
 
   .toggle {
     display: flex;
@@ -636,5 +644,4 @@ margin-left: auto;
       "header header header"
       "nav main main";
   }
-
 }
