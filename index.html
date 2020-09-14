@@ -384,23 +384,24 @@
         <div class="card">
           <div class="users">
             <h3>MESSAGE USER</h3>
-
+            <form id="form" action="index.html" method="POST">
             <input
               type="text"
               name="search-user"
-              id="search-user"
+              id="searchUser"
               placeholder="Search for User"
             />
             <textarea
               name="user-message"
-              id="user-masage"
+              id="userMessage"
               cols="30"
               rows="10"
               placeholder="Message for User"
             ></textarea>
-            <button class="send-btn" type="submit" name="send" id="btn-send">
+            <button class="send-btn" id="send" type="submit" name="send" id="btn-send">
               Send
             </button>
+            </form>
           </div>
 
           <div class="vl"></div>

@@ -2,6 +2,11 @@ const close = document.getElementsByClassName("closebtn");
 const traffic = document.getElementById("trafficChart");
 const daily = document.getElementById("dailyChart");
 const mobile = document.getElementById("doughnutChart");
+const message = document.getElementById("userMessage");
+const user = document.getElementById("searchUser");
+const send = document.getElementById("send");
+
+
 
 for (let i = 0; i < close.length; i++) {
   close[i].onclick = function () {
@@ -115,6 +120,33 @@ let chart3 = new Chart(mobile, {
       }
   },
 });
+
+
+send.addEventListener("click", (e) =>{
+    e.preventDefault();
+    let messages = [];
+    if (user.value === "" && message.value === "") {
+        alert("Please fill out user and message fields before sending");
+        } else if (user.value === "" ) {
+        alert("Please fill out user field before sending");
+        } else if (message.value === "" ) {
+        alert("Please fill out message field before sending");
+        } else {
+        alert(`Message successfully sent to: ${user.value}`);
+        }
+        
+})
+
+
+
+
+
+
+
+
+
+
+
 
 // const names = ["Victoria Chambers", "Dale Byrd", "Dawn Wood","Dan Oliver"];
 
