@@ -117,39 +117,6 @@ svg {
   transform: rotateY(180deg);
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background: lightgrey;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  text-decoration: none;
-  display: block;
-  border: 1px solid #eee;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.notification-text {
-  color: black;
-}
-
-.notification-text:hover {
-  font-weight: 800;
-  padding: 0 15px;
-}
-
 path {
   fill: white;
 }
