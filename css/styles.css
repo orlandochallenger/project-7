@@ -53,6 +53,10 @@ li {
   padding: 1rem;
 }
 
+canvas {
+  max-width: 100%;
+}
+
 .traffic {
   display: flex;
   flex-direction: row;
@@ -296,9 +300,19 @@ select {
 /*END OF DAILY TRAFFIC AND MOBILE USERS */
 
 /* SOLCIAL MEDIA */
+.social-stats {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .social {
   background-color: rgb(241, 240, 240);
+  width: 100%;
   margin: 15px;
+  border: 1px solid;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -391,13 +405,12 @@ form {
 /* END OF MESSAGE USER */
 
 /* TOGGLE */
+
 .toggle {
   margin: 1rem;
   padding: 1rem;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .toggle p {
@@ -574,20 +587,6 @@ input:checked + .slider .off {
     border-left: 1px solid;
   }
 
-  .social-stats {
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .social {
-    width: 100%;
-    margin: 15px;
-    border: 1px solid;
-  }
-
   .card {
     display: flex;
     flex-direction: row;
@@ -603,13 +602,6 @@ input:checked + .slider .off {
 
   .flex-date {
     margin-left: auto;
-  }
-
-  .toggle {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
   }
 }
 
