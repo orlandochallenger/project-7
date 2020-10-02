@@ -176,7 +176,7 @@ select {
 
 .dash-top {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .membersImg {
@@ -235,7 +235,7 @@ select {
 }
 
 .fg--search input {
-  width: 80%;
+  width: 95%;
   padding: 10px 10px;
   display: block;
   border-radius: 10px;
@@ -546,6 +546,19 @@ input:checked + .slider .off {
     align-items: center;
   }
 
+  .dash-top {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .fg--search {
+    width: 78%;
+    background: rgb(241, 240, 240);
+    position: relative;
+    display: flex;
+    justify-items: right;
+  }
+
   .fg--search input {
     width: 100%;
     margin-left: 50%;
@@ -638,5 +651,13 @@ input:checked + .slider .off {
       "header header header"
       "nav main main"
       "nav main main";
+  }
+
+  .fg--search {
+    width: 84%;
+    background: rgb(241, 240, 240);
+    position: relative;
+    display: flex;
+    justify-items: right;
   }
 }
