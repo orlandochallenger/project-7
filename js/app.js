@@ -18,74 +18,15 @@ for (let i = 0; i < close.length; i++) {
   };
 }
 
-// let hourly = new Chart(traffic, {
-//   type: "line",
-//   data: {
-//     labels: ["1hr", "2hr", "3hr", "4hr", "5hr", "6hr", "7hr", "8ht"],
-//     datasets: [
-//       {
+
+//    ["1hr", "2hr", "3hr", "4hr", "5hr", "6hr", "7hr", "8ht"],   
 //         label: "Hourly",
-//         data: [1, 2, 1.75, 3.5, 2.8, 4.3, 6.4, 6.8], 
-//         backgroundColor: "rgba(116, 119, 191, .3)",
-//         lineTension: 0,
-//         borderWidth: 1,
-//       },
-//     ],
-//   },
-//   options: {
-//     aspectRatio: 2.5,
-//     animation: {
-//       duration: 0,
-//     },
-//     scales: {
-//       yAxes: [
-//         {
-//           ticks: {
-//             beginAtZone: true,
-//           },
-//         },
-//       ],
-//     },
-//     legend: {
-//       display: false,
-//     },
-//   },
-// });
+//         data: [1, 2, 1.75, 3.5, 2.8, 4.3, 6.4, 6.8],     
 
 
-// let daily = new Chart(daily, {
-//   type: "line",
-//   data: {
-//     labels: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-//     datasets: [
-//       {
+//  ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],    
 //         label: "Daily",
-//         data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100], 
-//         backgroundColor: "rgba(116, 119, 191, .3)",
-//         lineTension: 0,
-//         borderWidth: 1,
-//       },
-//     ],
-//   },
-//   options: {
-//     aspectRatio: 2.5,
-//     animation: {
-//       duration: 0,
-//     },
-//     scales: {
-//       yAxes: [
-//         {
-//           ticks: {
-//             beginAtZone: true,
-//           },
-//         },
-//       ],
-//     },
-//     legend: {
-//       display: false,
-//     },
-//   },
-// });
+//         data: [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],       
 
 
 let chart = new Chart(traffic, {
@@ -122,39 +63,10 @@ let chart = new Chart(traffic, {
   },
 });
 
-// let montly = new Chart(traffic, {
-//   type: "line",
-//   data: {
+
 //     labels: ['January', 'February', 'March', 'April',  'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-//     datasets: [
-//       {
-//         label: "Traffic Data",
 //         data: [300, 1000, 800, 1500, 1400, 100 , 1000, 2000, 1500, 1750, 1250, 1850], 
-//         backgroundColor: "rgba(116, 119, 191, .3)",
-//         lineTension: 0,
-//         borderWidth: 1,
-//       },
-//     ],
-//   },
-//   options: {
-//     aspectRatio: 2.5,
-//     animation: {
-//       duration: 0,
-//     },
-//     scales: {
-//       yAxes: [
-//         {
-//           ticks: {
-//             beginAtZone: true,
-//           },
-//         },
-//       ],
-//     },
-//     legend: {
-//       display: false,
-//     },
-//   },
-// });
+//         
 
 
 
